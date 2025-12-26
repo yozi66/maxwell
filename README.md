@@ -1,30 +1,32 @@
 Maxwell's equations
 ===================
 
+These are **Maxwell’s equations written in macroscopic (matter-inclusive) form**, using the fields **E, D, B, H**. 
+
 ```math
 \begin{align}
-\vec{\nabla} \cdot \vec{D} &= P \\
-\vec{\nabla} \cdot B &= 0 \\
+\vec{\nabla} \cdot \vec{D} &= \rho \\
+\vec{\nabla} \cdot \vec{B} &= 0 \\
 \vec{\nabla} \times \vec{E} &= - \frac{\partial}{\partial t} \vec B \\
 \vec{\nabla} \times \vec{H} &= \frac{\partial}{\partial t} \vec D + \vec{j}
 \end{align}
 ```
 
-These are **Maxwell’s equations written in macroscopic (matter-inclusive) form**, using the fields **E, D, B, H**. Let's see **what each equation means physically**, and the description of symbols.
+Let's see **what each equation means physically**, and the description of symbols.
 
 ---
 
 ## 1. Gauss’s law for electricity
 
 ```math
-\vec{\nabla} \cdot \vec{D} = P
+\vec{\nabla} \cdot \vec{D} = \rho
 ```
 
 **Meaning:**
 The divergence of the electric displacement field **D** equals the **free charge density**.
 
 * $\vec{D}$: electric displacement field
-* $P$: free charge density (often written $\rho_f$)
+* $\rho$: free charge density (often written $\rho_f$)
 
 **Physical interpretation:**
 Electric charges are **sources or sinks of electric flux**. In materials, bound charges are absorbed into $\vec{D}$, so only **free charges** appear explicitly.
