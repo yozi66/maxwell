@@ -97,7 +97,7 @@ Maxwell’s correction ($\partial \vec{D}/\partial t$) allows electromagnetic wa
 | $\vec{D}$ | Electric displacement    | Accounts for polarization  |
 | $\vec{B}$ | Magnetic flux density    | Acts on moving charges     |
 | $\vec{H}$ | Magnetic field intensity | Accounts for magnetization |
-| $P$       | Free charge density      | Source of $\vec{D}$        |
+| $\rho$    | Free charge density      | Source of $\vec{D}$        |
 | $\vec{j}$ | Free current density     | Source of $\vec{H}$        |
 
 ---
