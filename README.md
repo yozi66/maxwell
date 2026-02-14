@@ -31,6 +31,11 @@ The divergence of the electric displacement field **D** equals the **free charge
 **Physical interpretation:**
 Electric charges are **sources or sinks of electric flux**. In materials, bound charges are absorbed into $\vec{D}$, so only **free charges** appear explicitly.
 
+**Math:** 
+Divergence is the sum of partial derivatives
+```math
+\vec{\nabla} \cdot \vec{D} = \frac{\partial \vec{D}}{\partial dx} + \frac{\partial \vec{D}}{\partial dy} + \frac{\partial \vec{D}}{\partial dz} = \rho
+```
 ---
 
 ## 2. Gauss’s law for magnetism
@@ -66,6 +71,23 @@ This is the principle behind:
 * electromagnetic induction
 
 The minus sign reflects **Lenz’s law**: the induced electric field opposes the change that created it.
+
+**Math:**
+Curl
+
+```math
+\vec{\nabla} \times \vec{E} = \begin{vmatrix}
+\hat{\boldsymbol{\imath}} & \hat{\boldsymbol{ \jmath}} & \hat{\boldsymbol{k}} \\
+\partial x & \partial y & \partial z \\
+E_x & E_y & E_z
+\end{vmatrix} 
+=
+(\partial y F_z - \partial z F_y)\,\hat{\boldsymbol{\imath}}
+-
+(\partial x F_z - \partial z F_x)\,\hat{\boldsymbol{ \jmath}}
++
+(\partial x F_y - \partial y F_x)\,\hat{\boldsymbol{k}}
+```
 
 ---
 
